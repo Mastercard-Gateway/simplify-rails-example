@@ -38,5 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'simplify', '~> 1.1.2'
+gem 'simplify', '~> 1.2.0'
 gem 'figaro'
