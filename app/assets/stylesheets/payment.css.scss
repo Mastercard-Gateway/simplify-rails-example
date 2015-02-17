@@ -1,3 +1,37 @@
 // Place all the styles related to the Payment controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#card-form {
+    background-color: #fff;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 600px;
+    font-family: Helvetica, sans-seif;
+    font-height: 18px;
+    line-height: 24px;
+    div {
+        padding: 5px 0 0 0;
+    }
+    label {
+        width: 250px;
+        text-align: right;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    input[type=text] {
+        width: 300px;
+    }
+    #submit-box {
+        height: 30px;
+        input[type=submit] {
+            float: right;
+            clear: both;
+        }
+
+    }
+
+}
