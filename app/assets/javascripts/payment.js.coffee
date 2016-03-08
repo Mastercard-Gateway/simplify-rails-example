@@ -22,8 +22,9 @@ simplifyResponseHandler = (data) ->
 ready = ->
     $('#simplify-payment-form').on 'submit', ->
         $('#process-payment-btn').attr disabled: 'disabled'
+        alert("DEVELOPER: Remove this alert and fill in your simplify public key into app/assets/javascripts.payment.js.coffee")
         SimplifyCommerce.generateToken {
-            key: 'sbpb_MTE5YzY5MzUtYjRjYS00MDJjLTk3NzAtNjI0ZjVkM2FhZGI4',
+            key: 'YOUR-PUBLIC-KEY',
             card: {
                 number: $('#cc-number').val(),
                 cvc: $('#cc-cvc').val(),
@@ -34,4 +35,3 @@ ready = ->
         false
 
 $(document).ready(ready)
-
